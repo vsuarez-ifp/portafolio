@@ -1,0 +1,95 @@
+body {
+    background: white;
+}
+
+.fulla {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 100% 0% 100% 0%;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    transform-origin: 0 100px;
+    background: linear-gradient(0deg, purple, pink);
+}
+
+.flor {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.f1 {
+    transform: rotate(0deg);
+}
+
+.f2 {
+    transform: rotate(60deg);
+}
+
+.f3 {
+    transform: rotate(120deg);
+}
+
+.f4 {
+    transform: rotate(180deg);
+}
+
+.f5 {
+    transform: rotate(240deg);
+}
+
+.f6 {
+    transform: rotate(300deg);
+}
+
+.cor {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background: yellow;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    background: radial-gradient(yellow, pink)
+}
+
+@keyframes rotacio {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.tija {
+    height: 350px;
+    width: 15px;
+    background: green;
+    position: absolute;
+    top: 155px;
+    left: 150px;
+}
+
+.full {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 100% 0% 100% 0%;
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    background: linear-gradient(0deg, green, greenyellow);
+}
+
+.conjunt:hover .flor {
+    animation: 1s rotacio linear infinite;
+}
+
+.conjunt {
+    width: 300px;
+    height: 520px;
+}

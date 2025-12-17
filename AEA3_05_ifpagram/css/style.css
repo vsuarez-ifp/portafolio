@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidor {
+    width: 1716px;
+    margin: auto;
+}
+
+.nav {
+    height: 166px;
+}
+
+.friends {
+    height: 180px;
+    width: 1300px;
+    margin: auto;
+}
+
+.pics {
+    height: 1860px;
+}
+
+.logo {
+    width: 205px;
+    height: 46px;
+    background-color: yellow;
+    float: left;
+    background-image: url(../img/logo.jpg);
+    margin: 50px 0 0 0;
+}
+
+.menu {
+    width: 297px;
+    height: 51px;
+    float: left;
+    ackground-image: url(../img/menu.jpg);
+    margin: 50px 0 0 504.5px;
+}
+
+.menu ul {
+    margin: 0;
+}
+
+.menu ul li {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    float: left;
+    display: block;
+    background-image: url(../img/menu.jpg);
+}
+
+.menu ul li:hover {
+    opacity: 0.6;
+}
+
+.inici {
+    background-position: 0px -10px;
+}
+
+.cerca {
+    background-position: -84px -10px;
+}
+
+.directes {
+    background-position: -167px -10px;
+}
+
+.favorits {
+    background-position: -251px -10px;
+}
+
+.perfil {
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.foto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil_2.jpg);
+    background-size: cover;
+    border: brown 5px solid;
+    box-shadow: inset 0px 0px 2px white;
+}
+
+.perfil:hover {
+    opacity: 1;
+}
+
+.afegir {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50px;
+    border: 5px solid white;
+    position: relative;
+    left: 60px;
+    top: -80px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+.Carlisle {
+    background-image: url(../img/Carlisle.jpg);
+}
+
+.Jasper {
+    background-image: url(../img/Jasper.jpg);
+}
+
+.Alice {
+    background-image: url(../img/Alice.jpg);
+}
+
+.Rosalie {
+    background-image: url(../img/Rosalie.jpg);
+}
+
+.Emmett {
+    background-image: url(../img/Emmett.jpg);
+}
+
+.Edward {
+    background-image: url(../img/Edward.jpg);
+}
+
+.Jacob {
+    background-image: url(../img/Jacob.jpg);
+}
+
+.Caius {
+    background-image: url(../img/Caius.jpg);
+}
+
+.Charlie {
+    background-image: url(../img/Charlie.jpg);
+}
+
+.Bella {
+    background-image: url(../img/Bella.jpg);
+}
+
+.post {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+.imatge {
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram_14.jpg);
+}
+
+.info {
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.reaccions {
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.autor {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-image: url(../img/Jasper.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+
+.usuari {
+    height: 25px;
+    width: 198px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.quan {
+    height: 25px;
+    width: 198px;
+    margin: 0;
+    float: left;
+    color: grey;
+    font-size: 12px;
+}
+
+.likes {
+    height: 25px;
+    width: 65px;
+    float: left;
+}
+
+.cors {
+    height: 25px;
+    width: 25px;
+    display: block;
+    float: left;
+    background-image: url(../img/menu.jpg);
+    background-size: cover;
+    background-position: -265px -25px;
+}
+
+.mes {
+    height: 25px;
+    width: 25px;
+}
+
+.i2 {
+    background-image: url(../img/ifpagram_16.jpg);
+}
+
+.i3 {
+    background-image: url(../img/ifpagram_18.jpg);
+}
+
+.i4 {
+    background-image: url(../img/ifpagram_23.jpg);
+}
+
+.i5 {
+    background-image: url(../img/ifpagram_24.jpg);
+}
+
+.i6 {
+    background-image: url(../img/ifpagram_25.jpg);
+}
+
+.i7 {
+    background-image: url(../img/ifpagram_29.jpg);
+}
+
+.i8 {
+    background-image: url(../img/ifpagram_30.jpg);
+}
+
+.i9 {
+    background-image: url(../img/ifpagram_31.jpg);
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+  
+.cor {
+    margin: 0 0 0 1rem;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    background-image: url(https://www.svgrepo.com/show/95200/favourite-heart.svg);
+    background-size: 1rem 1rem;
+    float: left;
+}
+  
+.cor label {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/A_perfect_SVG_heart.svg/684px-A_perfect_SVG_heart.svg.png?20180121090836);
+    background-size: 1rem 1rem;
+    float: left;
+}
+  
+.cor input[type=checkbox]:checked+label {
+    opacity: 1;
+}
+
+.likes {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.mes {
+    clear: both;
+    width: 50%;
+    text-align: right;
+}
+
+.reaccions {
+    margin-top: 10px;
+}

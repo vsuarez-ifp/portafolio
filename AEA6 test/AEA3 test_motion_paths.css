@@ -1,0 +1,64 @@
+.htmlNoPages .gwd-motion-path-1v8h-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["33px", "-8px", "21.32px", "100.98px", "131.24px", "364.44px", "389px", "384px"], "startTimeMs": 0, "endTimeMs": 1000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["389px", "384px", "625.75px", "399.41px", "811.61px", "155.52px", "878px", "-13px"], "startTimeMs": 1000, "endTimeMs": 2000, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 2s linear 0s 1 normal forwards running gwd-motion-path-1v8h-keys-x;
+  transform: translate3d(33px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1v8h-keys-x {
+  0% {
+    transform: translate3d(33px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4157, -0.2678, 0.8667, 0.7343);
+  }
+  10% {
+    transform: translate3d(50.55px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4303, 0.2032, 0.7231, 0.6296);
+  }
+  50% {
+    transform: translate3d(389px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2742, 0.3815, 0.5772, 0.7751);
+  }
+  100% {
+    transform: translate3d(878px, 0px, 0px);
+  }
+}
+.htmlNoPages .gwd-motion-path-1v8h-anim-y {
+  animation: 2s linear 0s 1 normal forwards running gwd-motion-path-1v8h-keys-y;
+  transform: translate3d(0px, -8px, 0px);
+}
+@keyframes gwd-motion-path-1v8h-keys-y {
+  0% {
+    transform: translate3d(0px, -8px, 0px);
+    animation-timing-function: cubic-bezier(0.3042, 0.3548, 0.6128, 0.7327);
+  }
+  33.75% {
+    transform: translate3d(0px, 323.12px, 0px);
+    animation-timing-function: cubic-bezier(0.23, 0.3846, 0.5362, 0.8802);
+  }
+  50% {
+    transform: translate3d(0px, 384px, 0px);
+    animation-timing-function: cubic-bezier(0.472, -0.105, 0.8256, 0.6731);
+  }
+  67.5% {
+    transform: translate3d(0px, 322.4px, 0px);
+    animation-timing-function: cubic-bezier(0.3809, 0.275, 0.6976, 0.6432);
+  }
+  100% {
+    transform: translate3d(0px, -13px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

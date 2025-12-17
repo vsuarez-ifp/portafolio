@@ -1,0 +1,107 @@
+:root {
+    /* Aquí hi van les variables */
+}
+
+* {
+    /* Aquí hi va el reset */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    /* Aquí hi van les fonts personalitzades */
+}
+
+
+    /* Aquí hi van propietats generals */
+
+body {
+    background: white;
+    font-family: Helvetica;
+}
+
+li { 
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: red;
+    margin: 1rem;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+    font-family: ;
+}
+
+li:hover {
+    opacity: 60%;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:link {
+    line-height: 10rem;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+ul {
+    width: 36rem;
+    margin: auto;
+}
+
+
+    /* Aquí hi van propietats responsives */
+
+
+
+@media (max-width:480px) 
+    /* Aquí hi va la versió mòbil */
+ {
+
+    
+ }
+
+@media (min-width:481px) and (max-width:1279px) 
+ {
+
+        li {
+            background: green;
+        }
+    
+ }
+
+
+
+@media (min-width:1280px)
+ {
+    body {
+        background: pink;
+    }
+
+.cap { 
+    height: 15rem;
+    background: #173753;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+    font-size: 5rem;
+}
+
+p {
+    text-align: center;
+}

@@ -1,0 +1,168 @@
+body {
+    background-color: #222;
+    margin: 0;
+}
+
+.contenidor {
+    height: 50px;
+}
+
+.logo {
+    height: 30px;
+    width: 38px;
+
+    background-image: url(../imatges/logo.png);
+    margin: 5px 20px 5px 20px;
+    float: left;
+}
+
+.menu {
+    height: 50px;
+    float: left;
+    margin: 0 0 0 100px;
+}
+
+.menu ul li {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    font-family: Helvetica, sans-serif;
+    text-align: end;
+    color: #CCC;
+}
+
+.menu ul li:hover {
+    color: #FFF;
+}
+
+.xarxes {
+    height: 50px;
+    float: left;
+    vertical-align: ;
+}
+
+.xarxes ul li {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    font-family: Helvetica, sans-serif;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.docu {
+    width: 175px;
+    height: 300px;
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+.imatge {
+    height: 260px;
+    width: 175px;
+    float: left;
+    border-radius: 5px;
+}
+
+.imatge:hover {
+    opacity: 50%;
+}
+
+.i1 {
+    background-image: url(../imatges/1982Koyaanisqatsi.jpg);
+}
+
+.i2 {
+    background-image: url(../imatges/2004YTuQueSabes.jpg);
+}
+
+.i3 {
+    background-image: url(../imatges/2005Earthlings.jpg);
+}
+
+.i4 {
+    background-image: url(../imatges/2007Helvetica.jpg);
+}
+
+.i5 {
+    background-image: url(../imatges/2007Sicko.jpg);
+}
+
+.i6 {
+    background-image: url(../imatges/2008Zeitgeist2.jpg);
+}
+
+.i7 {
+    background-image: url(../imatges//2009ArtAndCopy.jpg);
+}
+
+.i8 {
+    background-image: url(../imatges/2009Home.jpg);
+}
+
+.info {
+    width: 175px;
+    height: 40px;
+    float: left;
+}
+
+.nom {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #CCC;
+}
+
+.any {
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CCC;
+    margin-top: 10px;
+    float: left;
+    margin-right: 91px;
+}
+
+.tipus {
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CCC;
+    margin-top: 10px;
+    float: left;
+}
+
+.vistos {
+    float: left;
+}
+
+.i9 {
+    background-image: url(../imatges/2009RipARemixManifesto.jpg);
+}
+
+.i10 {
+    background-image: url(../imatges/2010ComprarTirarComprar.jpg);
+}
+
+.i11 {
+    background-image: url(../imatges/2010InsideJob.jpg);
+}
+
+.i12 {
+    background-image: url(../imatges/2011LaDoctrinaDeShock.jpg);
+}
+
+.pendents {
+    float: left;
+}
+
+.i13{
+    background-image: url(../imatges/2013ElEspirituDel45.jpg);
+}
+
+.i14 {
+    background-image: url(../imatges/2012TheActOfKilling.jpg);
+}

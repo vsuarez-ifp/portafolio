@@ -1,0 +1,91 @@
+<html>
+    <head>
+            <title>Horari DE2</title>
+            <meta author="Valeria">
+            <style>
+                /*  selector: despert {ulls: oberts;}  */
+                /*  selector: dormit {ulls: tancats;}  */
+                
+                body {
+                    background:red; 
+                    color: blue; 
+                    text-align: center; 
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                table {
+                    background: white; 
+                    border: 1px solid grey; 
+                    text-align: center; 
+                    width: 900; 
+                    margin: auto;
+                }
+                td {border: 1px solid grey;}
+                td:hover { background: maroon }
+                h1 {color:pink;}
+                th {
+                    background: black; 
+                    color: white;
+                }
+                tr {height: 80;}
+
+
+                .mp100 {background: greenyellow; border: 0;}
+                .mp1485 {background: purple; color: skyblue;}
+                .mp1484 {background: lavender;}
+                .mp1665 {background: burlywood;}
+                .mp1710 {background: pink;}
+                .mp1480 {background: goldenrod;}
+                .mpTUT {background: powderblue;}
+                .mpPATI {background: tan;}
+            </style>
+    </head>
+
+    <body>
+        <h1>Horari 25-26</h1>
+
+        <table>
+            <tr>
+                <th width="150px"></th>
+                <th width="150px">DL</th>
+                <th width="150px">DT</th>
+                <th width="150px">DC</th>
+                <th width="150px">DJ</th>
+                <th width="150px">DV</th>
+            </tr>
+            <tr>
+                <th>15:00-16:00</th>
+                <td rowspan="3" class="mp100">100</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="3" class="mp1485">1485</td>
+            </tr>
+            <tr>
+                <th>16:00-17:00</th>
+                <td rowspan="2" class="mp1710">1710</td>
+                <td class="mp1480">1480</td>
+                <td rowspan="2" class="mp1484">1484</td>
+            </tr>
+            <tr>
+                <th>17:00-18:00</th>
+                <td class="mpTUT">TUT</td>
+            </tr>
+            <tr>
+                <th>18:00 - 18:30</th>
+                <td colspan="5" class="mpPATI">PATI</td>
+            </tr>
+            <tr>
+                <th>18:30-19:30</th>
+                <td rowspan="2" class="mp1480">1480</td>
+                <td rowspan="2" class="mp1485">1485</td>
+                <td rowspan="2" class="mp1485">1485</td>
+                <td  class="mp1484">1484</td>
+                <td rowspan="2" class="mp1485">1485</td>
+            </tr>
+            <tr>
+                <th>19:30-20:30</th>
+                <td class="mp1665">1665</td>
+            </tr>
+        </table>
+    </body>
+</html>
