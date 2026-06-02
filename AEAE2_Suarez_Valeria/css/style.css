@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    background-image: linear-gradient(45deg, ivory 0%, ivory 40%, pink 40%, pink 100%);
+    background-repeat: no-repeat;
+
+}
+
+.cap {
+    height: 589px;
+    background-image: url(../img/ani/back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cos {
+    height: 690px;
+}
+
+.contingut {
+    width: 870px;
+    margin: auto;
+}
+
+.pis1 {
+    height: 210px;
+    margin: 20px 0;
+}
+
+.pis2 {
+    height: 210px;
+    margin: 20px 0;
+}
+
+.pis3 {
+    height: 210px;
+    margin: 20px 0;
+}
+
+.producte {
+    height: 170px;
+    width: 250px;
+    margin: 0 20px;
+    float: left;
+    opacity: 50%;
+}
+
+.producte:hover {
+    opacity: 100%;
+    animation: 1s rotacio linear infinite;
+}
+
+@keyframes rotacio {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cotxe {
+    height: 170px;
+    width: 250px;
+}
+
+.nom {
+    height: 40px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    
+}
+
+.peu {
+    height: 220px;
+    background-image: url(../img/logo_carsandfilms.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.i1 {
+    background-image: url(../img/small/small_pulp.jpg) ;
+}
+
+.i2 {
+    background-image: url(../img/small/small_taxi.jpg);
+}
+
+.i3 {
+    background-image: url(../img/small/small_bond.jpg) ;
+}
+
+.i4 {
+    background-image: url(../img/small/small_ghost.jpg);
+}
+
+.i5 {
+    background-image: url(../img/small/small_bean.jpg) ;
+}
+
+.i6 {
+    background-image: url(../img/small/small_back.jpg);
+}
+
+.i7 {
+    background-image: url(../img/small/small_rider.jpg) ;
+}
+
+.i8 {
+    background-image: url(../img/small/small_team.jpg);
+}
+
+.i9 {
+    background-image: url(../img/small/small_break.jpg);
+}
+
+@media (max-width:940px) {
+    .producte {
+        height: 170px;
+        width: 250px;
+        float: none;
+        opacity: 50%;
+        margin: auto;
+    }
+
+    .cos {
+        height: 1820px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:1279px) {
+
+}
+
+
+@media (min-width:1280px) {
+
+}

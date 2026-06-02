@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS07</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: ;
+        }
+
+        #sol {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background-color: orange;
+            float: left;
+            margin: 1rem;
+        }
+
+        #lluna {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            box-shadow: 0.5rem 0rem 0 silver;
+            float: left;
+            margin: 1rem;
+        }
+
+        ul {
+            display: inline-block;
+            margin: 0;
+            float: right;
+        }
+
+        li {
+            display: inline-block;
+            margin: 1rem;
+            font-size: 2rem;
+        }
+
+        #txt {
+            width: 30rem;
+            margin: 3rem auto 1rem auto;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="sol"></div>
+    <div id="lluna"></div>
+
+    <ul>
+        <li id="a">A</li>
+        <li id="aa">AA</li>
+        <li id="aaa">AAA</li>
+    </ul>
+
+    <p id="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium deleniti quasi hic sunt? Non dolorem fugit minus. Dolorum quisquam corrupti debitis incidunt quis accusantium quod, eos ipsam, reiciendis porro voluptas! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto perferendis repellat commodi. Consequatur, vero expedita eveniet unde debitis impedit? Maxime tempora corporis dignissimos perferendis impedit suscipit repellat cupiditate sunt laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Incidunt repellendus blanditiis voluptatibus delectus voluptatum vel quidem labore totam voluptatem sequi eaque molestias nobis architecto ex, quos veritatis et soluta impedit. Qui expedita molestiae odio inventore dignissimos quibusdam unde eveniet, esse soluta enim, dicta fuga non?
+    Minus quaerat necessitatibus dolorem, accusamus, distinctio, nulla quasi obcaecati non adipisci quae neque culpa porro.
+    Quidem doloribus voluptatum quo fuga natus saepe harum cum! Ab natus quidem ducimus quae veniam optio laborum quaerat saepe rerum quibusdam, debitis provident ipsa ea, praesentium dolorum, id illum ipsam.
+    Incidunt, pariatur. Aperiam minus amet ipsam, esse nostrum iusto nulla perferendis. Aliquam eligendi laboriosam incidunt dicta accusamus quod distinctio natus excepturi alias et eius vel eveniet earum, culpa, libero voluptatum!
+    Laudantium, molestiae veritatis illo id praesentium ea, recusandae sapiente soluta quo ratione magnam modi ipsum. Esse, beatae? Tenetur quos et delectus est maiores vel dolor labore, deserunt laudantium ab provident?</p>
+</body>
+
+    <script type="text/javascript" language="javascript">
+        // definim els events
+
+        document.getElementById('sol').addEventListener('click', sol);
+        document.getElementById('lluna').addEventListener('click', lluna);
+        
+        // creem les funcions
+
+        function sol() {
+            document.body.style.backgroundColor="white";
+            document.getElementById('txt').style.color="black"
+            document.getElementById('a').style.color="black";
+            document.getElementById('aa').style.color="black";
+            document.getElementById('aaa').style.color="black";
+
+        }
+
+        function lluna() {
+            document.body.style.backgroundColor="black";
+            document.getElementById('txt').style.color="white";
+            document.getElementById('a').style.color="white";
+            document.getElementById('aa').style.color="white";
+            document.getElementById('aaa').style.color="white";
+
+        }
+
+
+        //////////////////////////////////////////////
+
+        // definim els events
+        document.getElementById('a').addEventListener('click', reduir);
+        document.getElementById('aa').addEventListener('click', normal);
+        document.getElementById('aaa').addEventListener('click', augmentar);
+
+        //creem les funcions
+
+        function reduir() {
+            document.getElementById('txt').style.fontSize="0.5rem"
+        }
+
+        function normal() {
+            document.getElementById('txt').style.fontSize="1rem"
+        }
+
+        function augmentar() {
+            document.getElementById('txt').style.fontSize="2rem"
+        }
+    </script>
+
+</html>

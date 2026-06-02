@@ -1,5 +1,14 @@
 :root {
     /* Aquí hi van les variables */
+    --color1: #0a0a1a;
+    --color2: #141432;
+    --color3: #1e1e5a;
+    --color4: #4f46e5;
+    --color5: #0A4769;
+    --color6: #f4f4f5;
+
+    --tipografia1: "Abril Fatface", serif;
+    --tipografia2: "Cabin", sans-serif;
 }
 
 * {
@@ -17,91 +26,311 @@
     /* Aquí hi van propietats generals */
 
 body {
-    background: white;
-    font-family: Helvetica;
+    font-family: var(--tipografia1);
+    background-color: var(--color1);
+    color: var(--color6);
 }
 
-li { 
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    background: red;
-    margin: 1rem;
+.projecte { 
+    width: 28rem;
+    height: 22rem;
+    border-radius: 20px;
+    background-color: var(--color2);
+    margin: 2rem;
     float: left;
     list-style-type: none;
     text-align: center;
     align-content: center;
-    font-family: ;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 10px 0 var(--color3);
 }
 
-li:hover {
-    opacity: 60%;
+.projecte:hover {
+    transform: scale(110%);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px var(--color4);
 }
 
-a:visited {
-    color: grey;
-}
-
-a:link {
-    line-height: 10rem;
-    color: white;
+a {
+    color: var(--color6);
     text-decoration: none;
+    font-family: var(--tipografia2);
+    font-size: 1rem;
+}
+
+.menu a {
+    margin: 1rem;
 }
 
 a:hover {
-    color: yellow;
+    color: var(--color4);
 }
 
 a:active {
-    color: yellowgreen;
+    color: var(--color4);
 }
 
-ul {
-    width: 36rem;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100rem;
     margin: auto;
 }
 
+.cap{
+    height: 5rem;
+    top: 0;
+    padding: 1rem 2rem;
+    background-color: var(--color1);
+    border-bottom: 1px solid var(--color4);
+}
 
-    /* Aquí hi van propietats responsives */
+.menu {
+    float: right;
+    margin-top: 30px;
+    margin: 2rem 12rem 0 0;
+}
 
+.cos {
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #a1a1aa;
+}
 
+.sobre-mi {
+    background-color: var(--color2);
+    color: var(--color6);
+    font-size: 1.25rem;
+    display: block;
+    justify-content: center;
+    height: 32rem;
+    padding-top: 5rem;
+    margin: 10rem 0 0 0;
+}
 
-@media (max-width:480px) 
-    /* Aquí hi va la versió mòbil */
- {
+.foto {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    float: right;
+    background-color: #a1a1aa;
+    margin-right: 14rem;
+    margin-top: -26rem;
+    overflow: hidden;
+}
 
-    
- }
+.ilustracio {
+    width: 52rem;
+    margin-left: -14rem;
+    margin-top: -1rem;
+}
 
-@media (min-width:481px) and (max-width:1279px) 
- {
-
-        li {
-            background: green;
-        }
-    
- }
-
-
-
-@media (min-width:1280px)
- {
-    body {
-        background: pink;
-    }
-
-.cap { 
-    height: 15rem;
-    background: #173753;
-    color: aliceblue;
+.footer {
+    height: 3rem;
+    top: 0;
+    padding: 1rem 2rem;
+    background-color: var(--color1);
+    border-top: 1px solid var(--color4);
 }
 
 h1 {
+    font-size: 1.50rem;
+    color: var(--color6);
+    float: left;
+    margin: 2rem 0 0 12rem;
+}
+
+h2 {
+    font-family: var(--tipografia1);
+    font-size: 6rem;
+    color: var(--color6);
+    text-align: left;
+    margin: 0 0 0 12rem;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 3.5rem;
+    color: var(--color6);
+    margin: 8rem 0 0 12rem;
+}
+
+h4  {
+    font-size: 2rem;
+    color: var(--color4);
+}
+
+h5 {
+    font-size: 1.756999999rem;
+    color: var(--color4);
+    margin: 2rem 0 0 0;
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+    color: var(--color6);
+    font-family: var(--tipografia2);
+    margin: 18rem 0 0 0;
     text-align: center;
-    padding: 5rem 0 2rem 0;
-    font-size: 5rem;
+    clear: both;
+}
+
+.subtitol {
+    text-align: center;
+    margin: 12rem 0 0 0;
+}
+
+.sobre-mi p {
+    color: #a1a1aa;
+    width: 50rem;
+    font-family: var(--tipografia2);
+    margin: 4rem 0 0 12rem;
+}
+.footer p {
+    font-size: 1rem;
+    color: var(--color6);
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
 }
 
 p {
+    font-family: var(--tipografia2);
+    color: var(--color6);
+    font-size: 1.25rem;
+}
+
+.peu {
+    height: 30rem;
+    background-color: var(--color2);
+    margin: 8rem 0 0 0;
+}
+
+.correu {
+    float: left;
+    margin: 5rem 0 0 35rem;
     text-align: center;
+    width: 20rem;
+}
+
+.centre {
+    float: right;
+    margin: 5rem 35rem 0 0;
+    text-align: center;
+    width: 20rem;
+}
+
+.detalls {
+    font-family: var(--tipografia2);
+    margin: 1rem;
+    color: var(--color6);
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.frase {
+    width: 26rem;
+    height: 16rem;
+    border-radius: 20px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.i1 {
+    background-image: url(../img/1.jpg);
+}
+
+.i2 {
+    background-image: url(../img/2.jpg);
+}
+
+.i3 {
+    background-image: url(../img/3.jpg);
+}
+
+.i4 {
+    background-image: url(../img/4.jpg);
+}
+
+.i5 {
+    background-image: url(../img/5.jpg);
+}
+
+.i6 {
+    background-image: url(../img/6.jpg);
+}
+
+.i7 {
+    background-image: url(../img/7.jpg);
+}
+
+.i8 {
+    background-image: url(../img/8.jpg);
+}
+
+.i9 {
+    background-image: url(../img/9.jpg);
+}
+
+.i10 {
+    background-image: url(../img/10.jpg);
+}
+
+.i11 {
+    background-image: url(../img/11.jpg);
+}
+
+.i12 {
+    background-image: url(../img/12.jpg);
+}
+
+.i13 {
+    background-image: url(../img/13.jpg);
+}
+
+.i14 {
+    background-image: url(../img/14.jpg);
+}
+
+.i15 {
+    background-image: url(../img/15.jpg);
+}
+
+.i16 {
+    background-image: url(../img/16.jpg);
+}
+
+.i17 {
+    background-image: url(../img/17.jpg);
+}
+
+.i18 {
+    background-image: url(../img/18.jpg);
+}
+
+/* Aquí hi van propietats responsives */
+
+
+
+@media (max-width: 480px)
+
+{
+    
+}
+    
+@media (min-width:481px) and (max-width:1279px) 
+{
+    
+        
+}
+    
+@media (min-width:1280px)
+{
+    
 }
