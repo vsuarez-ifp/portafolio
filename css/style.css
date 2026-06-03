@@ -18,10 +18,6 @@
     border: 0;
 }
 
-@font-face {
-    /* Aquí hi van les fonts personalitzades */
-}
-
 
     /* Aquí hi van propietats generals */
 
@@ -32,11 +28,11 @@ body {
 }
 
 .projecte { 
-    width: 28rem;
-    height: 22rem;
+    width: 360px;
+    height: 300px;
+    margin: 20px; 
     border-radius: 20px;
     background-color: var(--color2);
-    margin: 2rem;
     float: left;
     list-style-type: none;
     text-align: center;
@@ -55,11 +51,11 @@ a {
     color: var(--color6);
     text-decoration: none;
     font-family: var(--tipografia2);
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .menu a {
-    margin: 1rem;
+    margin: 16px;
 }
 
 a:hover {
@@ -71,127 +67,123 @@ a:active {
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 3rem;
-    width: 100rem;
+    width: 1200px;
     margin: auto;
+    overflow: hidden;
 }
 
+
 .cap{
-    height: 5rem;
     top: 0;
-    padding: 1rem 2rem;
     background-color: var(--color1);
     border-bottom: 1px solid var(--color4);
+    height: 80px;
+    padding: 16px 32px;
 }
 
 .menu {
     float: right;
-    margin-top: 30px;
-    margin: 2rem 12rem 0 0;
+    margin: 30px 120px 0 0;
 }
 
 .cos {
-    margin-top: 2rem;
-    font-size: 1rem;
     line-height: 1.7;
     color: #a1a1aa;
+    margin-top: 32px;
+    font-size: 16px;
 }
 
 .sobre-mi {
     background-color: var(--color2);
     color: var(--color6);
-    font-size: 1.25rem;
     display: block;
     justify-content: center;
-    height: 32rem;
-    padding-top: 5rem;
-    margin: 10rem 0 0 0;
+    font-size: 20px;
+    margin: 160px 0 0 0;
+    height: 500px;
+    padding-top: 80px;
 }
 
 .foto {
-    width: 24rem;
-    height: 24rem;
     border-radius: 50%;
     float: right;
     background-color: #a1a1aa;
-    margin-right: 14rem;
-    margin-top: -26rem;
     overflow: hidden;
+    width: 320px;
+    height: 320px;
+    margin: -340px 180px 0 0;
 }
 
 .ilustracio {
-    width: 52rem;
-    margin-left: -14rem;
-    margin-top: -1rem;
+    width: 832px;
+    margin-left: -255px;
+    margin-top: -12px;
+
 }
 
 .footer {
-    height: 3rem;
     top: 0;
-    padding: 1rem 2rem;
     background-color: var(--color1);
     border-top: 1px solid var(--color4);
+    height: 48px;
+    padding: 16px 32px;
 }
 
 h1 {
-    font-size: 1.50rem;
     color: var(--color6);
     float: left;
-    margin: 2rem 0 0 12rem;
+    font-size: 24px;
+    margin:25px 0 0 120px;
 }
 
 h2 {
     font-family: var(--tipografia1);
-    font-size: 6rem;
     color: var(--color6);
     text-align: left;
-    margin: 0 0 0 12rem;
-    line-height: 1.25;
+    font-size: 80px;
+    margin-left: 150px;
+    line-height: 1.1;
 }
 
 h3 {
-    font-size: 3.5rem;
     color: var(--color6);
-    margin: 8rem 0 0 12rem;
+    font-size: 56px;
+    margin: 128px 0 0 192px;
 }
 
 h4  {
-    font-size: 2rem;
+    font-size: 32px;
     color: var(--color4);
 }
 
 h5 {
-    font-size: 1.756999999rem;
     color: var(--color4);
-    margin: 2rem 0 0 0;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 h6 {
-    font-size: 2.5rem;
     color: var(--color6);
     font-family: var(--tipografia2);
-    margin: 18rem 0 0 0;
+    margin: 288px 0 0 0;
     text-align: center;
     clear: both;
+    font-size: 40px;
 }
 
 .subtitol {
     text-align: center;
-    margin: 12rem 0 0 0;
+    margin: 192px 0 0 0;
 }
 
 .sobre-mi p {
     color: #a1a1aa;
-    width: 50rem;
     font-family: var(--tipografia2);
-    margin: 4rem 0 0 12rem;
+    width: 650px;
+    margin: 50px 0 0 150px;
+    font-size: 20px;
 }
 .footer p {
-    font-size: 1rem;
+    font-size: 16px;
     color: var(--color6);
     float: left;
     margin-left: 30px;
@@ -201,32 +193,33 @@ h6 {
 p {
     font-family: var(--tipografia2);
     color: var(--color6);
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 .peu {
-    height: 30rem;
     background-color: var(--color2);
-    margin: 8rem 0 0 0;
+    clear: both;
+    height: 480px;
+    margin: 128px 0 0 0;
 }
 
 .correu {
     float: left;
-    margin: 5rem 0 0 35rem;
     text-align: center;
-    width: 20rem;
+    width: 300px;
+    margin: 80px 0 0 280px;
 }
 
 .centre {
     float: right;
-    margin: 5rem 35rem 0 0;
     text-align: center;
-    width: 20rem;
+    width: 300px;
+    margin: 80px 280px 0 0;
 }
 
 .detalls {
     font-family: var(--tipografia2);
-    margin: 1rem;
+    margin: 16px;
     color: var(--color6);
     float: right;
     margin-right: 30px;
@@ -234,12 +227,12 @@ p {
 }
 
 .frase {
-    width: 26rem;
-    height: 16rem;
     border-radius: 20px;
     margin: auto;
     background-size: cover;
     background-position: center;
+    width: 320px;
+    height: 180px;
 }
 
 .i1 {
@@ -314,23 +307,174 @@ p {
     background-image: url(../img/18.jpg);
 }
 
-/* Aquí hi van propietats responsives */
 
 
 
 @media (max-width: 480px)
 
 {
-    
+
+    .cap {
+        height: 120px;
+    }
+
+    h1 {
+        float: none;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .menu {
+        float: none;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .sobre-mi {
+        height: auto;
+        padding: 40px 0;
+        overflow: hidden;
+    }
+
+    .sobre-mi p {
+        width: 300px;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    .foto {
+        float: none;
+        width: 220px;
+        height: 220px;
+        margin: 30px auto 0 auto;
+        display: block;
+    }
+
+   .ilustracio {
+        width: 450px;
+        margin: 0 0 0 -110px; 
+   }
+
+    .cards {
+        width: 320px;
+        margin: auto;
+        display: block;
+    }
+
+    .projecte {
+        float: none;
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .frase {
+        width: 260px;
+        height: 150px;
+    }
+
+    .correu {
+        width: 280px;
+        float: none;
+        margin: 30px auto;
+    }
+
+     
+    .centre {
+        width: 280px;
+        float: none;
+        margin: 30px auto;
+    }
+
+    .peu {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .peu p {
+        font-size: 18px;
+    }
+
+
+    .footer {
+        height: auto;
+        text-align: center;
+    }
+
+    .footer p {
+        float: none;
+        margin: 10px 0;
+    }
+
+    .detalls {
+        float: none;
+        margin: 10px 0;
+    }
+
+    h6 {
+        margin-top: 50px;
+        font-size: 28px;
+    }
+
+    h2{
+        width: 280px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+    h3 {
+        margin: 50px 0 30px 0;
+        text-align: center;
+        font-size: 40px;
+    }
 }
-    
+
+
 @media (min-width:481px) and (max-width:1279px) 
-{
+ {
+
+    .cards {
+        width: 800px;
+    }
+
+    .projecte {
+        width: 360px;
+        margin: 20px;
+    }
     
-        
-}
-    
-@media (min-width:1280px)
-{
-    
+    h2 {
+        font-size: 60px;
+        margin-left: 50px;
+    }
+
+    .sobre-mi p {
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .foto {
+        width: 250px;
+        height: 250px;
+
+        margin-right: 50px;
+        margin-top: -280px;
+    }
+
+    .ilustracio {
+        width: 700px;
+        margin: -20px 0 0 -220px;
+    }
+
+    .correu {
+        margin: 110px 0 0 80px;
+    }
+
+    .centre {
+        margin: 110px 80px 0 0;
+    }
 }
